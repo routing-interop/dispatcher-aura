@@ -1,0 +1,21 @@
+{
+    "name": "routing-interop/dispatcher-aura",
+    "description": "aura/router implementation for routing-interop/dispatcher",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Keven Godet",
+            "email": "hello@keven.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Interop\\Routing\\Aura\\": "src"
+        }
+    },
+    "require": {
+        "aura/router": "^3.1",
+        "routing-interop/dispatcher": "^0.0.1"
+    }
+}
